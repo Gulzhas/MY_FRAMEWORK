@@ -1,0 +1,29 @@
+<ns1:GetPromocode xmlns:ns1="http://tempuri.org/">
+	<ns1:request>
+		<ns2:Amount xmlns:ns2="http://schemas.datacontract.org/2004/07/PromcodeServiceLibrary.Classes">${amount}</ns2:Amount>
+		<ns2:ClientId xmlns:ns2="http://schemas.datacontract.org/2004/07/PromcodeServiceLibrary.Classes">${clientId}</ns2:ClientId>
+		<ns2:Customer xmlns:ns2="http://schemas.datacontract.org/2004/07/PromcodeServiceLibrary.Classes">
+			<ns3:Address1 xmlns:ns3="http://schemas.datacontract.org/2004/07/PromcodeServiceLibrary">${address1}</ns3:Address1>
+			<ns3:Address2 xmlns:ns3="http://schemas.datacontract.org/2004/07/PromcodeServiceLibrary">${address2}</ns3:Address2>
+			<ns3:City xmlns:ns3="http://schemas.datacontract.org/2004/07/PromcodeServiceLibrary">${city}</ns3:City>
+			<ns3:CountryCode xmlns:ns3="http://schemas.datacontract.org/2004/07/PromcodeServiceLibrary">${countryCode}</ns3:CountryCode>
+			<ns3:EmailAddress xmlns:ns3="http://schemas.datacontract.org/2004/07/PromcodeServiceLibrary">${emailAddress}</ns3:EmailAddress>
+			<ns3:FirstName xmlns:ns3="http://schemas.datacontract.org/2004/07/PromcodeServiceLibrary">${firstName}</ns3:FirstName>
+			<ns3:LastName xmlns:ns3="http://schemas.datacontract.org/2004/07/PromcodeServiceLibrary">${lastName}</ns3:LastName>
+			<ns3:PhoneNumber xmlns:ns3="http://schemas.datacontract.org/2004/07/PromcodeServiceLibrary">${phoneNumber}</ns3:PhoneNumber>
+			<ns3:PostalCode xmlns:ns3="http://schemas.datacontract.org/2004/07/PromcodeServiceLibrary"/>
+			<ns3:State xmlns:ns3="http://schemas.datacontract.org/2004/07/PromcodeServiceLibrary"/>
+		</ns2:Customer>
+		<ns2:EndClientId xmlns:ns2="http://schemas.datacontract.org/2004/07/PromcodeServiceLibrary.Classes">${endClientId}</ns2:EndClientId>
+		<ns2:IssuanceProductId xmlns:ns2="http://schemas.datacontract.org/2004/07/PromcodeServiceLibrary.Classes">${issuanceProductId}</ns2:IssuanceProductId>
+		<ns2:LocationId xmlns:ns2="http://schemas.datacontract.org/2004/07/PromcodeServiceLibrary.Classes">${locationId}</ns2:LocationId>
+		<ns2:Password xmlns:ns2="http://schemas.datacontract.org/2004/07/PromcodeServiceLibrary.Classes">${password}</ns2:Password>
+		<ns2:PromocodeProgramId xmlns:ns2="http://schemas.datacontract.org/2004/07/PromcodeServiceLibrary.Classes">${promocodeProgramId}</ns2:PromocodeProgramId>
+		<ns2:UserId xmlns:ns2="http://schemas.datacontract.org/2004/07/PromcodeServiceLibrary.Classes">${userId}</ns2:UserId>
+		<ns3:DistributionTemplate xmlns:ns3="http://schemas.datacontract.org/2004/07/PromcodeServiceLibrary">${distributionTemplate}</ns3:DistributionTemplate>
+		<ns3:ParticipantId xmlns:ns3="http://schemas.datacontract.org/2004/07/PromcodeServiceLibrary">${participantId}</ns3:ParticipantId>
+	</ns1:request>
+</ns1:GetPromocode>
+
+
+

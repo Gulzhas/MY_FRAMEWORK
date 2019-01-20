@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="SwiftTestAutomation - Digital Wallet"
+	parallel="methods">
+	<test name="Digital Wallet Test">
+		<packages>
+			<package name="com.swift.*" />
+		</packages>
+		<classes>
+			<class name="com.swift.digitalwallet.tests.SmokeTestDriver">
+				<methods>
+					<include name="testLogin" />		
+				</methods>
+			</class>			
+		</classes>		
+	</test>
+</suite>

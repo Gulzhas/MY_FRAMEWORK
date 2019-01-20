@@ -1,0 +1,27 @@
+<GetPromocodeResponse xmlns="http://tempuri.org/">
+	<GetPromocodeResult
+		xmlns:b="http://schemas.datacontract.org/2004/07/PromcodeServiceLibrary"
+		xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+		<Amount
+			xmlns="http://schemas.datacontract.org/2004/07/PromcodeServiceLibrary.Classes">${amount}</Amount>
+		<ExpirationDate
+			xmlns="http://schemas.datacontract.org/2004/07/PromcodeServiceLibrary.Classes">@ignore@</ExpirationDate>
+		<Promocode
+			xmlns="http://schemas.datacontract.org/2004/07/PromcodeServiceLibrary.Classes">@ignore@</Promocode>
+		<RedemptionLink
+			xmlns="http://schemas.datacontract.org/2004/07/PromcodeServiceLibrary.Classes">@ignore@
+		</RedemptionLink>
+		<RedemptionSite
+			xmlns="http://schemas.datacontract.org/2004/07/PromcodeServiceLibrary.Classes">@ignore@</RedemptionSite>
+		<ResponseCode
+			xmlns="http://schemas.datacontract.org/2004/07/PromcodeServiceLibrary.Classes">@ignore@</ResponseCode>
+		<ResponseMessage
+			xmlns="http://schemas.datacontract.org/2004/07/PromcodeServiceLibrary.Classes">@ignore@</ResponseMessage>
+		<Status
+			xmlns="http://schemas.datacontract.org/2004/07/PromcodeServiceLibrary.Classes">Valid</Status>
+		<SwiftErrorReason
+			xmlns="http://schemas.datacontract.org/2004/07/PromcodeServiceLibrary.Classes">@ignore@</SwiftErrorReason>
+		<TransactionId
+			xmlns="http://schemas.datacontract.org/2004/07/PromcodeServiceLibrary.Classes">@ignore@</TransactionId>
+	</GetPromocodeResult>
+</GetPromocodeResponse>
